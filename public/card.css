@@ -1,0 +1,48 @@
+.card--container {
+  background-color: #ffffff;
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.proile--container {
+  grid-column: 1/3;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.title--container {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0;
+  align-items: flex-start;
+  list-style: none;
+  gap: 5px;
+}
+.name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.description {
+  color: #6c7280;
+  width: fit-content;
+}
+.avatar {
+  height: 60px;
+  border-radius: 50%;
+}
+
